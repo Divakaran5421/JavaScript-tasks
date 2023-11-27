@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name select</title>
+</head>
+<body>
+    <h1 id="Name">Name</h1>
+    <button onclick="display(event)">John</button>
+    <button onclick="display(event)">Hari</button>
+    <button onclick="display(event)">Praveen</button>
+
+    <script>
+        listItem = document.getElementById('Name');
+        function display(event){
+            listItem.textContent=event.target.textContent;
+        }
+    </script>
+</body>
+</html>

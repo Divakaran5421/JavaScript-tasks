@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click and drop</title>
+</head>
+<body>
+    <h1 onclick="display(event)">One</h1>
+    <h1 onclick="display(event)">Two</h1>
+    <h1 onclick="display(event)">three</h1>
+    <h1 onclick="display(event)">Four</h1>
+    <h1 onclick="display(event)">Five</h1>
+    <h1 onclick="display(event)">Six</h1>
+    <script>
+        function display(event){
+            event.target.remove();
+        }
+    </script>
+</body>
+</html>

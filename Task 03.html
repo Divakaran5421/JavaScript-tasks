@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Value</title>
+</head>
+<body>
+    <h1>Retrieve The Value</h1>
+    <input type="text" id="inputBox" onkeydown="show()">
+    <p id="showValue"></p>
+    <script>
+        var inputBox=document.getElementById('inputBox');
+        function show(){
+            showValue.textContent=inputBox.value;
+        }
+    </script>
+</body>
+</html>
